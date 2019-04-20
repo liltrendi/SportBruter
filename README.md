@@ -12,7 +12,7 @@ SportBruter is a little script I wrote that tries to authenticate as a user agai
 
 [![asciicast](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd.svg)](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd)
 
-Depending on user preference, it gathers a list of free proxies to use, and launches a per-request dictionary attack using the provided credentials. 
+Depending on user preference, it gathers a list of free proxies to use, and launches a per-request dictionary attack using the provided credentials. If a pair of credentials authenticate, execution is halted and the results saved to a file.  
 
 The script has been written in Python 3, as such, trying to run it using Python 2 will cause it to fail.
 
