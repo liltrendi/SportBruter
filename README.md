@@ -46,7 +46,7 @@ python3 sportbruter.py
 
 ![](header.png)
 
-If you choose to use proxies when prompted, the script goes ahead to scrape [https://free-proxy-list.net]() for free proxies, and if it successfully gathers at least one proxy, it saves them to the file ``proxy.lst``. This file guarantees that the next time you run the script and you find out that your IP cannot scrape for more proxies because of being blacklisted, you still have the previous proxy list. If you have your own proxies that you'd like to use, place them in the file in the format ``ip:port`` as shown below:
+If you choose to use proxies when prompted, the script goes ahead to scrape [this website](https://free-proxy-list.net) for free proxies, and if it successfully gathers at least one proxy, it saves them to the file ``proxy.lst``. This file guarantees that the next time you run the script and you find out that your IP cannot scrape for more proxies because of being blacklisted, you still have the previous proxy list. If you have your own proxies that you'd like to use, place them in the file in the format ``ip:port`` as shown below:
 
 ![](proxy.png) 
 
