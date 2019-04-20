@@ -8,7 +8,7 @@
 [<img src="https://img.shields.io/badge/Rating-3.0%2F5-orange.svg">]()
 [<img src="https://img.shields.io/badge/Updated-Today-brightgreen.svg">]()
 
-SportBruter is a little script I wrote (cause I was bored) to try and authenticate as a user against a defined list of passwords.
+SportBruter is a little script I wrote (cause I was bored) to try and authenticate as a user against a defined list of passwords on the login page of [SportPesa](https://sportpesa.co.ke), a Kenyan sports betting platform.
 
 [![asciicast](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd.svg)](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd)
 
