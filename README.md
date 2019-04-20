@@ -84,6 +84,8 @@ This should fix any import errors you might have.
 
 ``Implement resumption on return after exit``
 
+``Parse command line arguments for flexibility``
+
 ## Meta
 
 Shoot me a message on Twitter- [@briancanspit](https://twitter.com/briancanspit)
