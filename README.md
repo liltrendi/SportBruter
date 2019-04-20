@@ -48,6 +48,10 @@ python3 sportbruter.py
 
 ![](header.png)
 
+If you choose to use proxies when prompted, the script goes ahead to scrape [Free-Proxy-List]("https://free-proxy-list.net) for free proxies, and if it successfully gathers at least one proxy, it saves them to the file ``proxy.lst``. This file guarantees that the next time you run the script and you find out that your IP cannot scrape for more proxies because of being blacklisted, you still have the previous proxy list. If you have your own proxies that you'd like to use, place them in the file in the format ``ip:port`` as shown below:
+
+![](proxy.png) 
+
 ## 
 
 If you run into any issues concerning failed module importation, it means you did not install the modules found in the requirements.txt file.
@@ -68,7 +72,8 @@ This should fix any import errors you might have.
 
 ## Meta
 
-Shoot me a message on Twitter– [@briancanspit](https://twitter.com/briancanspit) or Instagram- [@briancanspit](https://instagram.com/briancanspit)
+Shoot me a message on Twitter- [@briancanspit](https://twitter.com/briancanspit)
+Follow me on Instagram- [@briancanspit](https://instagram.com/briancanspit)
 
 Or email me - briancanspit@gmail.com
 
