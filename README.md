@@ -23,7 +23,7 @@ The script has been written in Python 3, as such, trying to run it using Python 
 To get started, you pretty much just have to clone the script:
 
 ```sh
-git clone https://github.com/briancanspit/sportbruter.git
+git clone https://github.com/briancanspit/SportBruter.git
 ```
 
 Then, get into the directory itself:
