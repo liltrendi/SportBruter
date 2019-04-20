@@ -10,11 +10,9 @@
 
 SportBruter is a little script I wrote (cause I was bored) to try and authenticate as a user against a defined list of passwords.
 
-![](header.png)
+[![asciicast](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd.svg)](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd)
 
 Depending on user preference, it gathers a list of free proxies to use should the user choose a bit of anonymity, and attacks. 
-
-![](header2.png)
 
 The script has been written in Python 3, as such, trying to run it using Python 2 will cause it to fail.
 
