@@ -27,7 +27,7 @@ git clone https://github.com/briancanspit/SportBruter.git
 Then, get into the directory itself:
 
 ```sh
-cd
+cd SportBruter
 ```
 
 Finally, install the dependencies it needs by running:
