@@ -64,7 +64,10 @@ def visit(bot,url,proxy):
 	try:
 		bot.open(url)
 		workingProxies.add(proxy)
-		print("\033[0;33m[+]Added proxy \033[0;32m'{}'".format(proxy)+"\033[0;33m to a list of working proxies")
+		if proxy.issubset(workingProxies):
+			pass
+		else:
+			print("\033[0;33m[+]Added proxy \033[0;32m'{}'".format(proxy)+"\033[0;33m to a list of working proxies")
 	except:
 		print("\033[1;31m[-]Connection error with '\033[0;33m'{}'\033[1;31m, skipping it\033[0;37m".format(proxy))
 
