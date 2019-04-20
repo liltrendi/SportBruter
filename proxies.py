@@ -63,13 +63,13 @@ def saveProxies(proxies):
 def visit(bot,url,proxy):
 	try:
 		bot.open(url)
-		workingProxies.add(proxy)
 		if proxy.issubset(workingProxies):
 			pass
 		else:
 			print("\033[0;33m[+]Added proxy \033[0;32m'{}'".format(proxy)+"\033[0;33m to a list of working proxies")
+			workingProxies.add(proxy)
 	except:
-		print("\033[1;31m[-]Connection error with '\033[0;33m'{}'\033[1;31m, skipping it\033[0;37m".format(proxy))
+		pass
 
 def test(proxyPool,url,proxy):
 	for i in range(7):
