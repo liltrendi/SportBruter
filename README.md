@@ -56,7 +56,9 @@ It is important to note that the statements preceded by ``#`` are comments and h
 
 ![](proxy2.png)
 
-From there, all your connections will be tunneled through the specified proxies, as selected. 
+From there, all your connections will be tunneled through the specified proxies, as selected. If it does not find an existing ``proxy.lst`` file (most likely because the user deleted the file manually after his IP had already been blacklisted), it will default to making the requests directly from your public IP. 
+
+![](public.png)
 
 ## 
 
