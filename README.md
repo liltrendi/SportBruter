@@ -70,9 +70,16 @@ pip install -r requirements.txt
 
 This should fix any import errors you might have.
 
+## To Do
+
+``Implement threading``
+
+``Implement resumption on return after exit``
+
 ## Meta
 
 Shoot me a message on Twitter- [@briancanspit](https://twitter.com/briancanspit)
+
 Follow me on Instagram- [@briancanspit](https://instagram.com/briancanspit)
 
 Or email me - briancanspit@gmail.com
