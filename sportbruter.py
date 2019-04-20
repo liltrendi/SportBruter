@@ -485,7 +485,7 @@ def chooseAttackType():
 	while incorrect:
 		if selection.upper() == "Y":
 			wait(0.7)
-			print(cyan("\n[*] Attempting to fetch free proxies from free-proxy-list.net"))
+			print(cyan("\n[*] Attempting to fetch free proxies from free-proxy-list.net\n"))
 			incorrect=False
 		elif selection.upper() == "N":
 			wait(1)
