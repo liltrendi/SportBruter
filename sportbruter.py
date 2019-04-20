@@ -498,6 +498,10 @@ def chooseAttackType():
 	return selection
 
 if __name__ == "__main__":
+	from platform import python_version as version
+	if int(version()[0]) < 3:
+		import sys
+		sys.exit("You need to use Python 3 to run this!")
 	try:
 		if platform.startswith("lin"):
 			run("clear",shell=True)
