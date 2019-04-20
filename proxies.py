@@ -11,6 +11,7 @@ import os
 
 session=Session()
 workingProxies=set()
+usedProxies=set()
 
 url="http://httpbin.org/ip"
 
@@ -72,7 +73,11 @@ def test(proxyPool,url,proxy):
 	for i in range(11):
 		session.proxies={"http":proxy,"https":proxy}
 		bot=rbb(session=session,parser="html.parser")
-		visit(bot,url,proxy)
+		usedProxies.add(proxy)
+		if usedProxies.issubset(workingProxies):
+			pass
+		else:
+			visit(bot,url,proxy)
 
 def loader():
 	proxyBar=Bar("Loading Proxies",max=100,suffix="%(percent)d%%")
