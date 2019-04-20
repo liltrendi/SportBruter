@@ -67,7 +67,7 @@ def visit(bot,url,proxy):
 		workingProxies.add(proxy)
 		print("\033[0;33m[+] Added proxy \033[0;32m'{}'".format(proxy)+"\033[0;33m to a list of working proxies")
 	except:
-		print("\033[1;31mConnection error with '\033[0;33m{}'\033[1;31m, skipping it...".format(proxy))
+		print("\033[1;31m[-] Connection error with '\033[0;33m{}'\033[1;31m, skipping it...".format(proxy))
 
 def test(proxyPool,url,proxy):
 	for i in range(11):
