@@ -52,6 +52,12 @@ If you choose to use proxies when prompted, the script goes ahead to scrape [Fre
 
 ![](proxy.png) 
 
+It is important to note that the statements preceded by ``#`` are comments and have only been placed there to elaborate on how you should write to the file. As such, do not include anything other than the proxies themselves in this file. Also, when you select to use proxies, this script overwrites the ``proxy.lst`` file. Thus, only introduce your own proxies after the script tells you that your IP cannot scrape for free proxies because it has been blacklisted, to avoid losing the proxies you specify in the file. If you follow this and all goes well, you should see something like this:
+
+![](proxy2.png)
+
+From there, all your connections will be tunneled through the specified proxies, as selected. 
+
 ## 
 
 If you run into any issues concerning failed module importation, it means you did not install the modules found in the requirements.txt file.
