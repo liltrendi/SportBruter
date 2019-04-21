@@ -1,14 +1,12 @@
 # Sport Bruter
 
-> Simple tool to brute-force the login page of the official SportPesa website.
-
 [<img src="https://img.shields.io/badge/Python-3.5%20%7C%203.6%20%7C%203.7-red.svg">]()
 [<img src="https://img.shields.io/badge/Requirements-Up%20To%20Date-green.svg">]()
 [<img src="https://img.shields.io/badge/License-MIT-blue.svg">]()
 [<img src="https://img.shields.io/badge/Rating-3.0%2F5-orange.svg">]()
 [<img src="https://img.shields.io/badge/Updated-Today-brightgreen.svg">]()
 
-SportBruter is a little script I wrote that tries to authenticate as a user against a defined list of passwords on the login page of [SportPesa](https://sportpesa.co.ke), a Kenyan betting platform.
+> SportBruter is a brute-force tool that tries to authenticate as a user against a defined list of passwords on the login page of [SportPesa](https://sportpesa.co.ke), a popular Kenyan sports betting platform.
 
 [![asciicast](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd.svg)](https://asciinema.org/a/fz787azSdbP34fi9iE7dpf0hd)
 
