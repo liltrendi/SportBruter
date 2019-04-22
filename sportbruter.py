@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from platform import python_version as version
+if int(version()[0]) < 3:
+	import sys
+	sys.exit("You need to use Python 3 to run this!")
+	
 try:
 	from requests import get as getSite
 	from urllib.request import urlopen as openSite
@@ -20,11 +27,6 @@ except:
 
 colors=(red,yellow,green,magenta,blue)
 init(autoreset=True)
-
-from platform import python_version as version
-if int(version()[0]) < 3:
-        import sys
-        sys.exit("You need to use Python 3 to run this!")
 
 try:
 	publicIP=openSite("http://ip.42.pl/raw").read()
@@ -503,10 +505,6 @@ def chooseAttackType():
 	return selection
 
 if __name__ == "__main__":
-	from platform import python_version as version
-	if int(version()[0]) < 3:
-		import sys
-		sys.exit("You need to use Python 3 to run this!")
 	try:
 		if platform.startswith("lin"):
 			run("clear",shell=True)
