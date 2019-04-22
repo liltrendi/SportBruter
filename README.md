@@ -58,9 +58,9 @@ From there, all your connections will be tunneled through the specified proxies,
 
 ## 
 
-If you run into any issues concerning failed module importation, it means you did not install the modules found in the requirements.txt file.
+If you run into any issues concerning failed module importation, it means you did not install the modules found in the requirements.txt file. Particularly, if you encounter ``module lxml.html not found``, read [this](https://lxml.de/installation.html).
 
-To fix this, run the command below in your terminal (not the Python console):
+To fix any remaining dependency issues, run the command below in your terminal (not the Python console):
 
 ```sh
 python3 -m pip install -r requirements.txt
