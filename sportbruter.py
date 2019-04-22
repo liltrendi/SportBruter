@@ -21,6 +21,11 @@ except:
 colors=(red,yellow,green,magenta,blue)
 init(autoreset=True)
 
+from platform import python_version as version
+if int(version()[0]) < 3:
+        import sys
+        sys.exit("You need to use Python 3 to run this!")
+
 try:
 	publicIP=openSite("http://ip.42.pl/raw").read()
 	publicIP=publicIP.decode("utf-8")
