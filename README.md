@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/License-MIT-blue.svg">]()
 [![Build Status](https://travis-ci.org/briancanspit/SportBruter.svg?branch=master)](https://travis-ci.org/briancanspit/SportBruter)
 [<img src="https://img.shields.io/badge/Rating-4.3%2F5-orange.svg">]()
-[<img src="https://img.shields.io/badge/Updated-Today-brightgreen.svg">]()
+[<img src="https://img.shields.io/badge/Updated-Recently-red.svg">]()
 
 > SportBruter is a brute-force tool that tries to authenticate as a user against a defined list of passwords on the login page of [SportPesa](https://sportpesa.co.ke), a popular Kenyan sports betting platform.
 
