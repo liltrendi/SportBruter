@@ -3,6 +3,7 @@
 [<img src="https://img.shields.io/badge/Python-3.5%20%7C%203.6%20%7C%203.7-red.svg">]()
 [<img src="https://img.shields.io/badge/Requirements-Up%20To%20Date-green.svg">]()
 [<img src="https://img.shields.io/badge/License-MIT-blue.svg">]()
+[![Build Status](https://travis-ci.org/briancanspit/SportBruter.svg?branch=master)](https://travis-ci.org/briancanspit/SportBruter)
 [<img src="https://img.shields.io/badge/Rating-3.0%2F5-orange.svg">]()
 [<img src="https://img.shields.io/badge/Updated-Today-brightgreen.svg">]()
 
