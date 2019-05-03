@@ -1,5 +1,5 @@
 language: python
 rvm:
     - 3.6
-install:
+script:
     - pip install -r requirements.txt
