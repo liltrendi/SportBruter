@@ -93,3 +93,10 @@ Or email me - briancanspit@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
+## Donate
+
+[<img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate%20Any%20Amount-orange.svg">]()
+
+Here's my bitcoin address - 1Po7v8gcwsfSxPrtNH1KgfmmV6hgYiqBTb
+
+Thanks in advance! 
