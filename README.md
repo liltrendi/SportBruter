@@ -99,6 +99,6 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 If you feel like my tool has been helpful or educative to you in any way, below's my bitcoin address:
 
-``1PSoroz2bfA769jwB3ACU2UPSBWbWQGRpe``
+``1QJq2tSxBsaJhoc7sRcdEB9gEq2puZCan3``
 
 Feel free to donate towards the development of more tools like this by me. Thanks in advance! 
